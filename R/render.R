@@ -12,7 +12,7 @@ render <- function(dataframe, dimensions) {
           output_dir=getwd(),
           intermediates_dir=getwd(),
 	  params=list(test=dataframe),
-	  output_format=("html_document", "pdf_document")
+	  output_format=("html_document", "pdf_document") 
   );
   invisible();
 }
