@@ -9,7 +9,7 @@ render <- function(dataframe, dimensions) {
   rmarkdown::render("/usr/local/lib/opencpu/apps/ocpu_github_inesani_stan/stanopencpu/stan.Rmd",
 		    #output_file="output.html",
                     output_dir=getwd(),
-                    intermediates_dir=getwd(), params=list(test=dataframe), output_format=("html_document", "pdf_document"));
+                    intermediates_dir=getwd(), params=list(test=dataframe), output_format="html_document");
   invisible();
 }
 
