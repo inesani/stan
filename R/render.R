@@ -6,8 +6,13 @@ render <- function(dataframe, dimensions) {
   #dataframe <-read.csv("/usr/local/lib/R/site-library/stan-opencpu/series1.txt", header = TRUE)
 
 	# Render the markdown
-  rmarkdown::render("/usr/local/lib/opencpu/apps/ocpu_github_inesani_stan/stanopencpu/stan.Rmd", output_file="output.html",
-                    output_dir=getwd(),
-                    intermediates_dir=getwd(), params=list(test=dataframe), output_format=("html_document", "pdf_document"));
+  rmarkdown::render(
+	  "/usr/local/lib/opencpu/apps/ocpu_github_inesani_stan/stanopencpu/stan.Rmd",
+	# output_file="output.html",
+          output_dir=getwd(),
+          intermediates_dir=getwd(),
+	  params=list(test=dataframe),
+	  output_format=("html_document", "pdf_document")
+  );
   invisible();
 }
