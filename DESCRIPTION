@@ -15,5 +15,4 @@ Imports:
 	rmarkdown,
 	fBasics,
 	fUnitRoots,
-	forecast,
-	tinytex
+	forecast
