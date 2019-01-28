@@ -3,8 +3,8 @@ title: "The Mini Android"
 author: "Inés Añíbarro Gorostiza"
 date: "October 2018"
 output: 
-  pdf_document
   html_document
+  pdf_document: default
 params:
   test: 'default'
 ---
