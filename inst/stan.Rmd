@@ -2,8 +2,7 @@
 title: "The Mini Android"
 author: "Inés Añíbarro Gorostiza"
 date: "October 2018"
-output: 
-  html_document
+output:
   pdf_document: default
 params:
   test: 'default'
