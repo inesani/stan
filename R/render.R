@@ -8,7 +8,7 @@ render <- function(dataframe, dimensions) {
 	# Render the markdown
   rmarkdown::render(
 	  	    "/usr/local/lib/opencpu/apps/ocpu_github_inesani_stan/stanopencpu/stan.Rmd",
-		    'pdf_document',
+		    output_format = 'all',
 		    params=list(test=dataframe),
                     output_dir=getwd(),
                     intermediates_dir=getwd()
