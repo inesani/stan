@@ -15,10 +15,4 @@ Imports:
 	rmarkdown,
 	fBasics,
 	fUnitRoots,
-	forecast,
-	nnet,
-	ggfortify,
-	cluster,
-	EMCluster,
-	dbscan,
-	factoextra
+	forecast
