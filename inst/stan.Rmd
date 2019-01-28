@@ -29,6 +29,7 @@ library(fBasics)
 library(forecast)
 library(nnet)
 library(zoo)
+library(tinytex)
 ```
 
 ```{r, echo=FALSE}
